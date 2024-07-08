@@ -8,6 +8,8 @@ import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;
 
+import java.util.List;
+
 @Entity
 @Table(name = "orders")
 public class Order {
@@ -50,6 +52,8 @@ public class Order {
         this.sum = sum;
         this.owner = owner;
     }
+
+
 
     public int getId() {
         return id;

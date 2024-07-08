@@ -49,13 +49,8 @@ public class User {
     public User() {
     }
 
-    public User(int id, String fullName, int age, String email, List<Order> orders, String infoOrder) {
-        this.id = id;
-        this.fullName = fullName;
-        this.age = age;
-        this.email = email;
-        this.orders = orders;
-        this.infoOrder = infoOrder;
+
+    public <E> User(int i, String катя, int i1, String s, List<E> telefon, String hbjhbjh) {
     }
 
     public int getId() {
